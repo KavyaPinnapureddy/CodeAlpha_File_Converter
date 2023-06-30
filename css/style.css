@@ -11,7 +11,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image:linear-gradient(rgb(149, 13, 13),rgb(41, 41, 43)) ;
+    background-image:linear-gradient(rgb(40, 246, 74),rgb(243, 18, 172)) ;
     min-height: 100vh;
 }
 
@@ -62,13 +62,14 @@ body {
 }
 
 .wrapper .save-btn {
-    color: #fff;
+    color: #110f0f;
     margin-top: 20px;
     padding: 16px 0;
     cursor: pointer;
     opacity: 0.6;
-    background: #17A2B8;
-    pointer-events: none;
+    background: #e80c0c;
+    pointer-events: none; 
+    border-radius:20px;
 }
 
 .wrapper textarea:valid ~ .save-btn{
